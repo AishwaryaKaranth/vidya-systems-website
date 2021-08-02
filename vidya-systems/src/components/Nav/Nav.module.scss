@@ -4,7 +4,43 @@
     --secondary-color:#17B978;
 }
 .color-nav{
-    background-color:#071A52;
+    background-color:var(--primary-color);
     width:100vw;
     left:0;
+    
+}
+
+.me-auto{
+    justify-content:space-between;
+}
+
+.link{
+    font-size:1.5rem;
+    color:var(--secondary-color);
+    background-color: var(--primary-color);
+    border-color: #071A52;
+    justify-content:center;
+    padding-right:4rem;
+}
+
+#basic-navbar-nav{
+    font-size:1.5rem;
+    color:var(--secondary-color);
+}
+
+.container{
+    padding-left:30%;
+}
+
+#basic-nav-dropdown{
+    font-size:1.5rem;
+    color:var(--secondary-color);
+    padding-right:4rem;
+    //background-color:var(--primary-color);
+}
+
+.link-secondary{
+    font-size:1rem;
+    background-color:var(--primary-color);
+    color:white;
 }
