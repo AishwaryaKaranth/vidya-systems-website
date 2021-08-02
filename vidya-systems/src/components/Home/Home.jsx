@@ -10,7 +10,9 @@ const Home=()=>{
            <Navigation/>
            <div className={styles["background"]}>
                 <img src={background} className={styles["layer"]}></img>
-                <p className={styles["hero-heading"]}>Dummy text</p>
+                <div className={styles["typewriter"]}>
+                    <h1>Dummy text</h1>
+                </div>
             </div>
            
         </div>
