@@ -6,12 +6,11 @@ import background from "../../assets/bg.jpg";
 const Home=()=>{
     return(
         <div className={styles["container"]}>
-           <h1>working</h1>
-           <Navigation/>
+           
            <div className={styles["background"]}>
                 <img src={background} className={styles["layer"]}></img>
                 <div className={styles["typewriter"]}>
-                    <h1>Dummy text</h1>
+                    <h1>Learn from the best</h1>
                 </div>
             </div>
            
