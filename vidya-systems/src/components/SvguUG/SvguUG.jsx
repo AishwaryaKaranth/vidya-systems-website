@@ -101,6 +101,7 @@ const SvugData2=[
 
 const SvguUG=()=>{
     return(
+        <>
         <div className={styles['container']}>
             <h3 className={styles['heading']}>Suresh Gyan Vihar University - Distance Education (SGVU-DE)</h3>
             <div className={styles['about-container']}>
@@ -130,8 +131,28 @@ Bachelor of Business Administration (BBA) is an interdisciplinary three years gr
                 {data.syllabus.map((d)=><li className={styles['syllabus-list']}>{d}</li>)}
                 </div>
                 )}
+                <p>2. BCA - Bachelor of Computer Applications
+Bachelor of Computer Applications (BCA) is a 3 year graduation programme in computer science. The course is designed to meet the growing demand for qualified professionals in the field of IT. The curriculum of BCA course offered by SGVU-DE is designed considering the need of different Software Houses in India and abroad and has a high job potential in IT Sector. 
+
+•	Duration : Minimum 3 years, 6 Semester Program & Max 6 years 
+•	Medium : English
+•	Eligibility : 10+2 or its equivalent
+•	Curriculum /Syllabus
+
+</p>
+                {SvugData2.map((data)=>
+                <div className={styles['course-flex-container']}>
+                <h3>{data.semester}</h3>
+                {data.syllabus.map((d)=><li className={styles['syllabus-list']}>{d}</li>)}
+                </div>
+                )}
             </div>
+            
+            
+
         </div>
+        
+        </>
     )
 }
 
