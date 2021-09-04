@@ -2,6 +2,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Faq from "./components/Faq/Faq";
 import Nav from "./components/Nav/Nav";
+import SvguUG from "./components/SvguUG/SvguUG";
 import Contact from "./components/Contact/Contact";
 import {LinkContainer} from "react-router-dom";
 import { BrowserRouter as Router, Route } from 'react-router-dom';
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about" component={About}></Route>
         <Route path="/faq" component={Faq}></Route>
         <Route path="/contact" component={Contact}></Route>
+        <Route path="/svguUG" component={SvguUG}></Route>
       </Router>
     </div>
   );

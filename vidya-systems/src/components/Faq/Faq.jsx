@@ -26,6 +26,7 @@ const Faq=()=> {
   return (
     <div className="App">
       <h1 className={style['faq-heading']}>Frequently Asked Questions</h1>
+      <div className={style['container']}>
       {faq.map((f) => (
         <section className={style["faq-container"]}>
           <li className={style["faq-question-container"]} key={faq.id}>{f.question}</li>
@@ -39,6 +40,7 @@ const Faq=()=> {
           )}
         </section>
       ))}
+      </div>
     </div>
   );
 }

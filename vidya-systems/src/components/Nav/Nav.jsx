@@ -20,15 +20,23 @@ const Navigation=()=>{
                     <   Nav.Link><span className={styles["link"]}>About Us</span></Nav.Link>
                     </LinkContainer>
                     
-                    <NavDropdown title="Dropdown" id={styles["basic-nav-dropdown"]}>
-                        <NavDropdown.Item>Gitam
-                        <NavDropdown.Item>UG</NavDropdown.Item>
-                        <NavDropdown.Item>PG</NavDropdown.Item>
-                        </NavDropdown.Item>
-                        <NavDropdown.Item>SVGU
-                        <NavDropdown.Item>UG</NavDropdown.Item>
-                        <NavDropdown.Item>PG</NavDropdown.Item>
-                        </NavDropdown.Item>
+                    <NavDropdown title="Distance Education" id={styles["basic-nav-dropdown"]}>
+                        <NavDropdown title="Gitam">
+                            <LinkContainer to="/gitamUG">
+                                <NavDropdown.Item>UG</NavDropdown.Item>
+                            </LinkContainer>
+                            <LinkContainer to="/gitamPG">
+                                <NavDropdown.Item>PG</NavDropdown.Item>
+                            </LinkContainer>
+                        </NavDropdown>
+                        <NavDropdown title="SVGU">
+                            <LinkContainer to="/svguUG">
+                                <NavDropdown.Item>UG</NavDropdown.Item>
+                            </LinkContainer>
+                            <LinkContainer to="/svguPG">
+                                <NavDropdown.Item>PG</NavDropdown.Item>
+                            </LinkContainer>
+                        </NavDropdown>
                     </NavDropdown>
                     <LinkContainer to="/faq">
                         <Nav.Link><span className={styles["link"]}>FAQ</span></Nav.Link>
