@@ -25,3 +25,26 @@ h3{
     text-decoration:underline;
     text-decoration-color: #17B978;
 }
+.course-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 10vw;
+}
+.course-flex-container{
+    font-family:'Montserrat',sans-serif;
+    font-weight:540;
+    flex: 1 0 30%;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 2rem;
+    border: solid #17B978;
+    border-radius: 10px;
+    box-shadow: 9px 8px 14px -5px rgba(0,0,0,0.63);
+}
+
+.syllabus-list{
+    font-family:'Montserrat',sans-serif;
+    font-weight:540;
+    list-style: none;
+}

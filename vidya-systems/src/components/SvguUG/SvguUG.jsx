@@ -125,10 +125,10 @@ Bachelor of Business Administration (BBA) is an interdisciplinary three years gr
             </div>
             <div className={styles['course-container']}>
                 {SVGUUGData.map((data)=>
-                <>
+                <div className={styles['course-flex-container']}>
                 <h3>{data.semester}</h3>
-                {data.syllabus.map((d)=><li>{d}</li>)}
-                </>
+                {data.syllabus.map((d)=><li className={styles['syllabus-list']}>{d}</li>)}
+                </div>
                 )}
             </div>
         </div>
