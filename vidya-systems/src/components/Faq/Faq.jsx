@@ -4,6 +4,7 @@ import style from "./Faq.module.scss";
 
 const Faq=()=> {
   const [visible, setVisibility] = useState(true);
+  const [dropdown,setDropdown]=useState(true);
   var faq = [
     {
       id:1,
@@ -33,7 +34,6 @@ const Faq=()=> {
                 +
                 </button>
             </div>
-          
           {visible && (
             <li className={style["faq-answer-container"]} style={{ color: visible ? "red" : "blue" }} key={faq.id}>{f.answer}</li>
           )}
