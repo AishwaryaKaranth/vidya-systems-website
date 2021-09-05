@@ -103,25 +103,30 @@ const SvguUG=()=>{
     return(
         <>
         <div className={styles['container']}>
-            <h3 className={styles['heading']}>Suresh Gyan Vihar University - Distance Education (SGVU-DE)</h3>
+            <h2 className={styles['heading']}>Suresh Gyan Vihar University - Distance Education (SGVU-DE)</h2>
             <div className={styles['about-container']}>
+                <br/>
             <p>The Suresh Gyan Vihar University - Distance Education (SGVU-DE) is established 
                 in the year 2012 to serve the aspirant students 
                 who could not enter the regular colleges for higher education.
-                SGVU-DE offers 4 programmes in UG & PG stream viz., BBA, BCA, MBA, and MCA.
+                SGVU-DE offers 4 programmes in UG & PG stream viz., <span>BBA, BCA, MBA, and MCA</span>.
                 SGVU is recognized by UGC-AICTE-DEB, Govt. of India. SGVU distance programs have been vetted by EMAS 
                 Business School, Russia and students who have completed / 
                 pursuing distance MBA from SGVU can seek higher educational 
                 programs with EMAS Russia.</p>
                 <br/>
                 <p><span className={styles['title-heading']}>UG Course’s offered</span>:
-1.	BBA- Bachelor of Business Administration
-Bachelor of Business Administration (BBA) is an interdisciplinary three years graduate degree programme offered by SGVU-DE. With BBA, graduates can either launch their professional career in top corporates or progress to pursue a PG programme. BBA offers students a core of mandatory courses in Computer Applications, General Business Law, Economics, Finance, Marketing and Management. On successful completion of the programme students will acquire adequate knowledge and skills in Communication Skills, Logical Reasoning, Business Management, Presentation Skills and Computer Applications besides achieving a remarkable improvement in their overall personality.
+                <br/>
+                <h4>1.	BBA- Bachelor of Business Administration</h4>
+                Bachelor of Business Administration (BBA) is an interdisciplinary three years graduate degree programme offered by SGVU-DE. With BBA, graduates can either launch their professional career in top corporates or progress to pursue a PG programme. BBA offers students a core of mandatory courses in Computer Applications, General Business Law, Economics, Finance, Marketing and Management. On successful completion of the programme students will acquire adequate knowledge and skills in Communication Skills, Logical Reasoning, Business Management, Presentation Skills and Computer Applications besides achieving a remarkable improvement in their overall personality.
+<br/>
+<ul className={styles['course-duration']}>
+    <li><span className={styles['duration-title']}>Duration</span> : Minimum 3 years, 6 Semester Program & Max 6 years </li>
+    <li><span className={styles['duration-title']}>Medium</span> : English</li>
+    <li><span className={styles['duration-title']}>Eligibility</span> : 10+2 or its equivalent</li>
+    <li><span className={styles['duration-title']}>Curriculum /Syllabus</span></li>
+</ul>
 
-•	Duration : Minimum 3 years, 6 Semester Program & Max 6 years 
-•	Medium : English
-•	Eligibility : 10+2 or its equivalent
-•	Curriculum /Syllabus
 </p>
             </div>
             <div className={styles['course-container']}>
