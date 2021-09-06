@@ -13,7 +13,11 @@ const Home=()=>{
                     <h1>Learn from the best</h1>
                 </div>
             </div>
-           
+           <div className={styles["desc-container"]}>
+                <div className={styles["desc-container-grid"]}>
+                    asd
+                </div>
+           </div>
         </div>
     )
 }
