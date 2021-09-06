@@ -86,3 +86,14 @@
       color: black;
       margin-left: -1rem;
     }
+
+    .navbar-light .navbar-toggler {
+      color: rgba(0,0,0,.5);
+      border-color: rgba(0,0,0,.1);
+      background-color: #A7FF83;
+  }
+  
+   .responsive-nav{
+     background-color:var(--secondary-color);
+   }
+

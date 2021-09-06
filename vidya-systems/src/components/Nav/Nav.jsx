@@ -10,10 +10,10 @@ const Navigation=()=>{
         <Navbar collapseOnSelect expand="lg" className={styles["color-nav"]}>
             <Container className={styles["container"]}>
                 <LinkContainer to="/">
-                    <Navbar.Brand href="#home"><span className={styles["link"]}>Home</span></Navbar.Brand>
+                    <Navbar.Brand href="#home"><span className={styles["link"]}>Vidya Systems</span></Navbar.Brand>
                 </LinkContainer>
             
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" className={styles["responsive-nav"]}/>
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className={styles["me-auto"]}>
                     <LinkContainer to="/about">
@@ -21,20 +21,20 @@ const Navigation=()=>{
                     </LinkContainer>
                     
                     <NavDropdown title="Distance Education" id={styles["basic-nav-dropdown"]}>
-                        <NavDropdown title="Gitam">
+                        <NavDropdown title="GITAM University" className={styles["dropdown-title"]}>
                             <LinkContainer to="/gitamUG">
-                                <NavDropdown.Item>UG</NavDropdown.Item>
+                                <NavDropdown.Item className={styles["dropdown-title"]}>UG</NavDropdown.Item>
                             </LinkContainer>
                             <LinkContainer to="/gitamPG">
-                                <NavDropdown.Item>PG</NavDropdown.Item>
+                                <NavDropdown.Item className={styles["dropdown-title"]}>PG</NavDropdown.Item>
                             </LinkContainer>
                         </NavDropdown>
-                        <NavDropdown title="SVGU">
+                        <NavDropdown title="SVGU" className={styles["dropdown-title"]}>
                             <LinkContainer to="/svguUG">
-                                <NavDropdown.Item>UG</NavDropdown.Item>
+                                <NavDropdown.Item className={styles["dropdown-title"]}>UG</NavDropdown.Item>
                             </LinkContainer>
                             <LinkContainer to="/svguPG">
-                                <NavDropdown.Item>PG</NavDropdown.Item>
+                                <NavDropdown.Item className={styles["dropdown-title"]}>PG</NavDropdown.Item>
                             </LinkContainer>
                         </NavDropdown>
                     </NavDropdown>
