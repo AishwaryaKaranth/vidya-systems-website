@@ -114,8 +114,9 @@ const SvguUG=()=>{
                 Business School, Russia and students who have completed / 
                 pursuing distance MBA from SGVU can seek higher educational 
                 programs with EMAS Russia.</p>
-                <br/>
+            
                 <p><span className={styles['title-heading']}>UG Course’s offered</span>:
+                <br/>
                 <br/>
                 <h4>1.	BBA- Bachelor of Business Administration</h4>
                 Bachelor of Business Administration (BBA) is an interdisciplinary three years graduate degree programme offered by SGVU-DE. With BBA, graduates can either launch their professional career in top corporates or progress to pursue a PG programme. BBA offers students a core of mandatory courses in Computer Applications, General Business Law, Economics, Finance, Marketing and Management. On successful completion of the programme students will acquire adequate knowledge and skills in Communication Skills, Logical Reasoning, Business Management, Presentation Skills and Computer Applications besides achieving a remarkable improvement in their overall personality.
