@@ -92,6 +92,11 @@
       border-color: rgba(0,0,0,.1);
       background-color: #A7FF83;
   }
+
+  .header-container img{
+    width:20vw;
+    padding:1rem;
+  }
   
   @media (max-width: 800px) {
     .responsive-navbar-nav{

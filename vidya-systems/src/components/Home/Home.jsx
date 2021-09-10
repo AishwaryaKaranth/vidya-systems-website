@@ -23,6 +23,26 @@ const Home=()=>{
                 In the year of 2013 we were one among the first Distance Education Centre to start the 
                 GITAM Distance Learning at Mathikere, Bangalore.
                 </p>
+                <br/>
+                <h3>Admissions</h3>
+                <p>Admissions to all the programs will be given as follows</p>
+                <ul>
+                    <li>Academic Year  Batch : July of the year to May of next year [May Exams]</li>
+                    <li>Calendar Year Batch:  January to December of the year [December Exams]</li>
+                </ul>
+                <br/>
+                <h3>Academic Programmes </h3>
+                <p>The GITAM University offers a wide range of programmes, conventional and innovative, leading to Diploma, Undergraduate and Postgraduate Degrees.  </p>
+                <ul>
+                    <li>Diploma in Communication English (DCE) [ Period of study : 1 year]</li>
+                    <li>Diploma in Computer Applications (DCA)  ) [ Period of study : 1 year]</li>
+                    <li>BA – HEP ,BA-PPS, BA-HPS  [ Period of study : 3 years]</li>
+                    <li>B.Com [ Period of study :  3 years]</li>
+                    <li>MA  - Economics / English  [ Period of study :  2 years]</li>
+                    <li>M.Com [ Period of study :  2 years]</li>
+                    <li>MBA [ HRM/ Financial Management, Marketing Management, Systems Management, Hospital Management, Operations Managements  [ Period of study :  2 years]</li>
+                    <li>MCA [ Period of study :  3  years]</li>
+                </ul>
             </div>
         </>
     )
