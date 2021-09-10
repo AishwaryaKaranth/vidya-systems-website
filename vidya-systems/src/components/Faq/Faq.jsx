@@ -25,21 +25,19 @@ const Faq=()=> {
 
   return (
     <div className="App">
-      <h1 className={style['faq-heading']}>Frequently Asked Questions</h1>
+      <h2 className={style['faq-heading']}>Frequently Asked Questions</h2>
       <div className={style['container']}>
-      {faq.map((f) => (
-        <section className={style["faq-container"]}>
-          <li className={style["faq-question-container"]} key={faq.id}>{f.question}</li>
-            <div className={style["faq-button-container"]}>
-                <button className={style["faq-button"]} onClick={() => setVisibility(visible ? false : true)}>
-                +
-                </button>
-            </div>
-          {visible && (
-            <li className={style["faq-answer-container"]} style={{ color: visible ? "red" : "blue" }} key={faq.id}>{f.answer}</li>
-          )}
-        </section>
-      ))}
+        {faq.map((f) => (
+          <section className={style["faq-container"]}>
+            <li className={style["faq-question-container"]} key={faq.id}>{f.question}</li>
+              <div className={style["faq-button-container"]}>
+                <button className={style["faq-button"]} onClick={()=>setVisibility(visible?false:true)}>+</button>
+              </div>
+            {visible && (
+              <li className={style["faq-answer-container"]} key={faq.id}>{f.answer}</li>
+            )}
+          </section>
+        ))}
       </div>
     </div>
   );
