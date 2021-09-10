@@ -7,7 +7,7 @@
 }
 
 .container{
-    width:60vw;
+    max-width:800px;
     margin:auto;
     padding:1rem;
     margin-top:2rem;
@@ -24,7 +24,7 @@ h2,h3,h4{
     color:var(--primary-color);
     text-decoration:underline;
     text-decoration-color: #17B978;
-    text-align:center;
+    text-align:left;
 }
 .course-container{
     display: flex;
@@ -65,5 +65,5 @@ h2,h3,h4{
     font-weight:540;
     list-style: none;
     padding:0.5rem;
-    text-align:center;
+    text-align:left;
 }

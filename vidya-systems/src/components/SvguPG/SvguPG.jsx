@@ -139,8 +139,9 @@ const SvguPG=()=>{
                 {data.syllabus.map((d)=><li className={styles['syllabus-list']}>{d}</li>)}
                 </div>
                 )}
-                <p>2. BCA - Bachelor of Computer Applications
-                The MBA programme is to provide highly skilled, well trained and employable professionals to the industry equipped with latest knowledge and technology as per the requirement of niche industry. The curriculum has been so designed to help the learners to become not only employable but also encourage them to become dynamic entrepreneur. MBA Electives provides in-depth understanding and covers national as well as global issues
+                <br/>
+                <h4>2. MBA – Masters of Business Administration</h4>
+                <p>The MBA programme is to provide highly skilled, well trained and employable professionals to the industry equipped with latest knowledge and technology as per the requirement of niche industry. The curriculum has been so designed to help the learners to become not only employable but also encourage them to become dynamic entrepreneur. MBA Electives provides in-depth understanding and covers national as well as global issues
                 <ul className={styles['course-duration']}>
     <li><span className={styles['duration-title']}>Duration</span> : 2 years, 4 Semester Program Maximum- 4 years </li>
     <li><span className={styles['duration-title']}>Medium</span> : English</li>
