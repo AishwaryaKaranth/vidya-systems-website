@@ -12,8 +12,10 @@ const Navigation=()=>{
                 <LinkContainer to="/">
                     <Navbar.Brand href="#home"><span className={styles["link"]}>Vidya Systems</span></Navbar.Brand>
                 </LinkContainer>
+            <span className={styles["responsive-nav"]}>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" className={styles["responsive-nav"]}/>
+            </span>
             
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" className={styles["responsive-nav"]}/>
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className={styles["me-auto"]}>
                     <LinkContainer to="/about">

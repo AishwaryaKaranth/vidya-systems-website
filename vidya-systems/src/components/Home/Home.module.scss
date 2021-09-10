@@ -94,4 +94,19 @@ body {
     .container{
       flex-direction:column;
     }
+
+    .hero-image{
+      margin-left:2rem;
+    }
+
+    .hero-heading{
+      margin-top: 2rem;
+      margin-left: rem;
+      /* float: right; */
+      /* width: 60vw; */
+      /* height: 40%; */
+      text-decoration: none;
+      font-size: 6rem;
+      margin-left: 2.5rem;
+    }
   }
