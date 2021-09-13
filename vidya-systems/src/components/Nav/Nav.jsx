@@ -17,6 +17,7 @@ const Navigation=()=>{
                 <Container className={styles["container"]}>
                     <LinkContainer to="/">
                         <Navbar.Brand href="#home"><span className={styles["link"]}>Vidya Systems</span></Navbar.Brand>
+                        
                     </LinkContainer>
                 <span className={styles["responsive-nav"]}>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" className={styles["responsive-nav"]}/>

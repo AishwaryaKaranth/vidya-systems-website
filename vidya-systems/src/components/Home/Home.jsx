@@ -13,6 +13,7 @@ const Home=()=>{
                 </div>
                 <div className={styles["container-grid"]}>
                     <h2 className={styles["hero-heading"]}>Learn from the best.</h2>
+                    
                 </div>
             </div>
             <hr></hr>
@@ -44,6 +45,9 @@ const Home=()=>{
                     <li>MCA [ Period of study :  3  years]</li>
                 </ul>
             </div>
+            <footer>
+                <p>Copyright Vidya Systems 2021</p>
+            </footer>
         </>
     )
 }

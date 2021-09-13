@@ -3,6 +3,7 @@
     --primary-color: #071A52 ;
     --secondary-color:#17B978;
 }
+
 .color-nav{
     background-color:var(--primary-color);
     width:100vw;
@@ -96,6 +97,10 @@
   .header-container img{
     width:20vw;
     padding:1rem;
+  }
+
+  .dropdown-title{
+    margin:auto;
   }
   
   @media (max-width: 800px) {

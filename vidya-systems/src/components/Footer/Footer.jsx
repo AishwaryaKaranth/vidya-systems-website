@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer=()=>{
     return(
-        <div className={styles["footer-container"]}>
-            <p>Copyright &#169; Vidya Systems 2021</p>
-        </div>
+        <footer>
+            <p>Copyright Vidya Systems 2021</p>
+        </footer>
     )
 }
 
