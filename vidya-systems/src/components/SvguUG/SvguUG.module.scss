@@ -42,10 +42,16 @@ h2,h3,h4{
     flex-wrap: wrap;
     padding: 10px;
     margin: 2rem;
-    border: solid #17B978;
+    border: 3px solid var(--primary-color);
     border-radius: 10px;
     box-shadow: 9px 8px 14px -5px rgba(0,0,0,0.63);
+    border-style:dashed;
+}
 
+.course-flex-container:hover{
+    background-color:#D4EDE2;
+    border:2px solid var(--primary-color);
+    border-style:dashed;
 }
 
 .syllabus-list{

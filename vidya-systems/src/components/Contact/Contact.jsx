@@ -1,27 +1,31 @@
 import React, { useState } from "react";
+import axios from "axios";
 
 const ContactForm = () => {
-  const [status, setStatus] = useState("Submit");
-  const handleSubmit = async (e) => {
+  const [server, setServer]=useState({
+    submission:false,
+    status:null
+  })
+
+  const handleResponse=(serverResponse,message,form)=>{
+    setServer({submitting:true,status:{serverResponse, message}});
+    if(serverResponse){
+      form.reset();
+    }
+  }
+
+  const handleSubmit=(e)=>{
     e.preventDefault();
-    setStatus("Sending...");
-    const { name, email, message } = e.target.elements;
-    let details = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    };
-    let response = await fetch("http://localhost:5000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(details),
-    });
-    setStatus("Submit");
-    let result = await response.json();
-    alert(result.status);
-  };
+    const form=e.target;
+    setServer({submission:true});
+    axios({
+      method:"post",
+      url:"",
+      data:new FormData(form)
+    })
+    .then(r=>{handleResponse(true,"Thanks for submitting!",form)})
+    .catch(r=>{handleResponse(false,"Error",form)})
+  }
   return (
     <form onSubmit={handleSubmit}>
       <div>
@@ -36,7 +40,8 @@ const ContactForm = () => {
         <label htmlFor="message">Message:</label>
         <textarea id="message" required />
       </div>
-      <button type="submit">{status}</button>
+      <button type="submit" disabled={server.submission}></button>
+      {server.status&&<p>{server.status.message}</p>}
     </form>
   );
 };

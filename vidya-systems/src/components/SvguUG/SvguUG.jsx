@@ -137,8 +137,11 @@ const SvguUG=()=>{
                 {data.syllabus.map((d)=><li className={styles['syllabus-list']}>{d}</li>)}
                 </div>
                 )}
-                <p>2. BCA - Bachelor of Computer Applications
-Bachelor of Computer Applications (BCA) is a 3 year graduation programme in computer science. The course is designed to meet the growing demand for qualified professionals in the field of IT. The curriculum of BCA course offered by SGVU-DE is designed considering the need of different Software Houses in India and abroad and has a high job potential in IT Sector. 
+                <h4>2. BCA - Bachelor of Computer Applications</h4>
+<p>Bachelor of Computer Applications (BCA) is a 3 year graduation programme in computer science. 
+    The course is designed to meet the growing demand for qualified professionals in the field of IT. 
+    The curriculum of BCA course offered by SGVU-DE is designed considering the need of different 
+    Software Houses in India and abroad and has a high job potential in IT Sector. 
 
 •	Duration : Minimum 3 years, 6 Semester Program & Max 6 years 
 •	Medium : English
