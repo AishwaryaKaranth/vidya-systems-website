@@ -21,24 +21,25 @@ const ContactForm = () => {
     axios({
       method:"post",
       url:"https://formspree.io/f/mgerbpao",
-      data:new FormData(form)
+      data:new FormData(form),
     })
     .then(r=>{handleResponse(true,"Thanks for submitting!",form)})
-    .catch(r=>{handleResponse(false,"Error",form)})
+    .catch(r=>{handleResponse(false,"Could not submit form",form)})
+    console.log(form)
   }
   return (
-    <form onSubmit={handleSubmit} method="post">
+    <form onSubmit={handleSubmit} method="POST">
       <div>
         <label htmlFor="name">Name:</label>
-        <input type="text" id="name" required />
+        <input type="text" id="name" name="name" required />
       </div>
       <div>
         <label htmlFor="email">Email:</label>
-        <input type="email" id="email" required />
+        <input type="email" id="email" name="email" required />
       </div>
       <div>
         <label htmlFor="message">Message:</label>
-        <textarea id="message" required />
+        <textarea id="message" name="message" required />
       </div>
       <button type="submit" disabled={server.submission}>Submit</button>
       {server.status&&<p>{server.status.message}</p>}
