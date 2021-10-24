@@ -20,14 +20,14 @@ const ContactForm = () => {
     setServer({submission:true});
     axios({
       method:"post",
-      url:"",
+      url:"https://formspree.io/f/mgerbpao",
       data:new FormData(form)
     })
     .then(r=>{handleResponse(true,"Thanks for submitting!",form)})
     .catch(r=>{handleResponse(false,"Error",form)})
   }
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} method="post">
       <div>
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" required />
@@ -40,7 +40,7 @@ const ContactForm = () => {
         <label htmlFor="message">Message:</label>
         <textarea id="message" required />
       </div>
-      <button type="submit" disabled={server.submission}></button>
+      <button type="submit" disabled={server.submission}>Submit</button>
       {server.status&&<p>{server.status.message}</p>}
     </form>
   );
