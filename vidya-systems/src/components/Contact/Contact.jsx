@@ -22,7 +22,7 @@ const ContactForm = () => {
     setServer({ submission: true });
     axios({
       method: "post",
-      url: "https://formspree.io/f/mgerbpao",
+      url: "https://formspree.io/f/xknkdjre",
       data: new FormData(form),
     })
       .then(r => { handleResponse(true, "Thanks for submitting!", form) })
