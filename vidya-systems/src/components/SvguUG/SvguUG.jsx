@@ -8,7 +8,7 @@ const SvguCourses=[
         link: 'https://docs.google.com/document/d/1tcyRWMfJrubw33Ukh8CKVYr08NQnqaKj/edit?usp=sharing&ouid=115030633055998374817&rtpof=true&sd=true'
     },
     {
-        course: 'Bachelor of business administtration (BBA)',
+        course: 'Bachelor of Business Administration (BBA)',
         link: 'https://docs.google.com/document/d/1VGV0EdhTD5KenfCmUSoyDIHBes7fIWSm/edit?usp=sharing&ouid=115030633055998374817&rtpof=true&sd=true'
     },
     {
