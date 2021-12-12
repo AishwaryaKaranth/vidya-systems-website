@@ -2,165 +2,54 @@ import React from "react";
 import styles from "./SvguUG.module.scss";
 import { NavDropdown } from "react-bootstrap";
 
-
-const SVGUUGData=[
+const SvguCourses=[
     {
-        semester:"Semester 1",
-        syllabus:[  "1. Business Communication Skills",
-                    "2. Business Mathematics",
-                    "3. Introduction to Computers",
-                    "4. Principle of Management"]
+        course: 'Bachelor of Arts (BA)',
+        link: 'https://docs.google.com/document/d/1tcyRWMfJrubw33Ukh8CKVYr08NQnqaKj/edit?usp=sharing&ouid=115030633055998374817&rtpof=true&sd=true'
     },
     {
-        semester:"Semester 2",
-        syllabus:[  "1. Business Environment",
-                    "2. Business Economics",
-                    "3. Introduction to Financial Accounts",
-                    "4. Organisational Behaviour"]
+        course: 'Bachelor of business administtration (BBA)',
+        link: 'https://docs.google.com/document/d/1VGV0EdhTD5KenfCmUSoyDIHBes7fIWSm/edit?usp=sharing&ouid=115030633055998374817&rtpof=true&sd=true'
     },
     {
-        semester:"Semester 3",
-        syllabus:[  "1. Cost Accounting I",
-                    "2. Foundation of Human Skills",
-                    "3. Human Resource Management",
-                    "4. Principles of Marketing"]
+        course:'Bachelor of Computer Applications (BCA)',
+        link:'https://drive.google.com/file/d/1-WACAb6z2sFbccXQKvnbx2oHwDzKMDkR/view?usp=sharing'
     },
     {
-        semester:"Semester 4",
-        syllabus:[  "1. Business Statistics",
-                    "2. Financial Management",
-                    "3. Management Information Systems",
-                    "4. Production & Operation Management"]
-    },
-    {
-        semester:"Semester 5",
-        syllabus:[  "1. Enterprise Resource Planning",
-                    "2. Elements of Company Law",
-                    "3. Business Entrepreneurship",
-                    "4. International Economics"]
-    },
-    {
-        semester:"Semester 6",
-        syllabus:[  "1.Business Regulatory Framework (Mercantile Law)",
-                    "2. Business Administration",
-                    "3. E-Commerce",
-                    "4. Project Work"]
+        course:'Bachelor of Commerce (BCom)',
+        link:'https://docs.google.com/document/d/1RiutZ1R_bylqSwullsTKcObZFcI-tBxw/edit?usp=sharing&ouid=115030633055998374817&rtpof=true&sd=true'
     }
 ]
 
-const SvugData2=[
-    {
-        semester:"Semester 1",
-        syllabus:["1. Principle of Management",
-        "2. Business Communication",
-        "3. Principles of Prog. & Algorithm",
-        "4. Modern Operating Environment & M.S. Office",
-        "5. Lab - Principles of Prog. & Algorithm"]
-    },
-    {
-        semester:"Semester 2",
-        syllabus:["1. Computer Applications in Statistics",
-        "2. Introduction to Database Management System",
-        "3. E-commerce Concepts",
-        "4. C-programing",
-        "5. Lab - C Programming"]
-    },
-    {
-        semester:"Semester 3",
-        syllabus:["1. Data Structure Using C",
-        "2. Discrete Mathematics",
-        "3. Introduction to Operating Systems",
-        "4. RDBMS (Oracle)",
-        "5. Lab- Data Structure Using C"]
-    },
-    {
-        semester:"Semester 4",
-        syllabus:["1. Object Oriented Programming using C++",
-        "2. Computer Networks",
-        "3. Programming In Visual Basics",
-        "4. Enterprise Resource Planning",
-        "5. Lab- Programming In Visual Basics"]
-    },
-    {
-        semester:"Semester 5",
-        syllabus:["1. Software Engineering",
-        "2. Dot Net Programming",
-        "3. Java Programming",
-        "4. Web Technologies",
-        "5. Lab - Java Programming"]
-    },
-    {
-        semester:"Semester 6",
-        syllabus:["1. Object Oriented Software Engineering",
-        "2. Software Testing",
-        "3. Advanced Java",
-        "4. Lab- Advanced Java",
-        "5. Project Work"]
-    }
-]
-
-const SvguUG=()=>{
-    return(
+const SvguUG = () => {
+    return (
         <>
-        <div className={styles['container']}>
-            <h2 className={styles['heading']}>Suresh Gyan Vihar University - Distance Education (SGVU-DE)</h2>
-            <div className={styles['about-container']}>
-                <br/>
-            <p>The Suresh Gyan Vihar University - Distance Education (SGVU-DE) is established 
-                in the year 2012 to serve the aspirant students 
-                who could not enter the regular colleges for higher education.
-                SGVU-DE offers 4 programmes in UG & PG stream viz., <span>BBA, BCA, MBA, and MCA</span>.
-                SGVU is recognized by UGC-AICTE-DEB, Govt. of India. SGVU distance programs have been vetted by EMAS 
-                Business School, Russia and students who have completed / 
-                pursuing distance MBA from SGVU can seek higher educational 
-                programs with EMAS Russia.</p>
-            
-                <p><span className={styles['title-heading']}>UG Course’s offered</span>:
-                <br/>
-                <br/>
-                <h4>1.	BBA- Bachelor of Business Administration</h4>
-                Bachelor of Business Administration (BBA) is an interdisciplinary three years graduate degree programme offered by SGVU-DE. With BBA, graduates can either launch their professional career in top corporates or progress to pursue a PG programme. BBA offers students a core of mandatory courses in Computer Applications, General Business Law, Economics, Finance, Marketing and Management. On successful completion of the programme students will acquire adequate knowledge and skills in Communication Skills, Logical Reasoning, Business Management, Presentation Skills and Computer Applications besides achieving a remarkable improvement in their overall personality.
-<br/>
-<ul className={styles['course-duration']}>
-    <li><span className={styles['duration-title']}>Duration</span> : Minimum 3 years, 6 Semester Program & Max 6 years </li>
-    <li><span className={styles['duration-title']}>Medium</span> : English</li>
-    <li><span className={styles['duration-title']}>Eligibility</span> : 10+2 or its equivalent</li>
-    <li><span className={styles['duration-title']}>Curriculum /Syllabus</span></li>
-</ul>
+            <div className={styles['container']}>
+                <h2 className={styles['heading']}>Suresh Gyan Vihar University - Distance Education (SGVU-DE)</h2>
+                <div className={styles['about-container']}>
+                    <br />
+                    <p>The Suresh Gyan Vihar University - Distance Education (SGVU-DE) is established
+                        in the year 2012 to serve the aspirant students
+                        who could not enter the regular colleges for higher education.
+                        SGVU-DE offers 4 programmes in UG & PG stream viz., <span>BBA, BCA, MBA, and MCA</span>.
+                        SGVU is recognized by UGC-AICTE-DEB, Govt. of India. SGVU distance programs have been vetted by EMAS
+                        Business School, Russia and students who have completed /
+                        pursuing distance MBA from SGVU can seek higher educational
+                        programs with EMAS Russia.</p>
 
-</p>
-            </div>
-            <div className={styles['course-container']}>
-                {SVGUUGData.map((data)=>
-                <div className={styles['course-flex-container']}>
-                <h3>{data.semester}</h3>
-                {data.syllabus.map((d)=><li className={styles['syllabus-list']}>{d}</li>)}
+                    <br/>
                 </div>
-                )}
-                <h4>2. BCA - Bachelor of Computer Applications</h4>
-<p>Bachelor of Computer Applications (BCA) is a 3 year graduation programme in computer science. 
-    The course is designed to meet the growing demand for qualified professionals in the field of IT. 
-    The curriculum of BCA course offered by SGVU-DE is designed considering the need of different 
-    Software Houses in India and abroad and has a high job potential in IT Sector. 
-
-•	Duration : Minimum 3 years, 6 Semester Program & Max 6 years 
-•	Medium : English
-•	Eligibility : 10+2 or its equivalent
-•	Curriculum /Syllabus
-
-</p>
-                {SvugData2.map((data)=>
-                <div className={styles['course-flex-container']}>
-                <h3>{data.semester}</h3>
-                {data.syllabus.map((d)=><li className={styles['syllabus-list']}>{d}</li>)}
+                <div className={styles["course-details"]}>
+                    {SvguCourses.map(_=>{
+                        return(
+                            <>
+                                <a href={_.link} target="_blank" className={styles['course-titles']}>{_.course}</a>
+                                <br/>
+                            </>
+                        ) 
+                    })}
                 </div>
-                )}
             </div>
-            
-            
-
-        </div>
-        
         </>
     )
 }

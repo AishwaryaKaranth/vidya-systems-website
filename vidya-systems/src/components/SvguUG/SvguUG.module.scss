@@ -69,3 +69,16 @@ h2,h3,h4{
     text-decoration:underline;
     text-decoration:#17B978;
 }
+
+.course-titles{
+    display:inline;
+    color:var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.5rem;
+}
+
+.course-titles:hover{
+    text-decoration:none;
+    color:var(--secondary-color);
+    font-size:1.5rem;
+}
