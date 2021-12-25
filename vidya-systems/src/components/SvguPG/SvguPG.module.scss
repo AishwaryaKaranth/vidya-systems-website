@@ -22,9 +22,6 @@ h2,h3,h4{
     font-family:'Montserrat',sans-serif;
     font-weight:800;
     color:var(--primary-color);
-    text-decoration:underline;
-    text-decoration-color: #17B978;
-    text-align:left;
 }
 .course-container{
     display: flex;
@@ -71,4 +68,17 @@ h2,h3,h4{
     list-style: none;
     padding:0.5rem;
     text-align:left;
+}
+
+.course-titles{
+    display:inline;
+    color:var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.5rem;
+}
+
+.course-titles:hover{
+    text-decoration:none;
+    color:var(--secondary-color);
+    font-size:1.5rem;
 }
