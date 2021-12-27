@@ -14,6 +14,10 @@ const SvguCourses = [
     {
         course: "Master of Business Administration (MBA)",
         link: "https://drive.google.com/file/d/11zG84idwpE5r9faWHdqlNw-HGhsd8fCH/view?usp=sharing"
+    },
+    {
+        course: "MBA Specializations",
+        link: "https://drive.google.com/file/d/1wsIxcPmQzMQ2AqGYrWsHThuB2-C_dJL-/view?usp=sharing"
     }
 ]
 
