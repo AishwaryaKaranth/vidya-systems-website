@@ -5,15 +5,15 @@ import { NavDropdown } from "react-bootstrap";
 const SvguCourses = [
     {
         course: "Master of Arts (MA)",
-        link: ""
+        link: "https://docs.google.com/document/d/1TGX1kmhTBRfSJzQ7BegNjK3w_UCfYs_1/edit?usp=sharing&ouid=115030633055998374817&rtpof=true&sd=true"
     },
     {
         course: "Master of Computer Applications (MCA)",
-        link: ""
+        link: "https://drive.google.com/file/d/1nh1pduNw9PKmMs6qxi-1m-oVYwD4lfxO/view?usp=sharing"
     },
     {
         course: "Master of Business Administration (MBA)",
-        link: ""
+        link: "https://drive.google.com/file/d/11zG84idwpE5r9faWHdqlNw-HGhsd8fCH/view?usp=sharing"
     }
 ]
 

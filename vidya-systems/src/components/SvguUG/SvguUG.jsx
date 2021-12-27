@@ -5,7 +5,7 @@ import { NavDropdown } from "react-bootstrap";
 const SvguCourses=[
     {
         course: 'Bachelor of Arts (BA)',
-        link: 'https://docs.google.com/document/d/1tcyRWMfJrubw33Ukh8CKVYr08NQnqaKj/edit?usp=sharing&ouid=115030633055998374817&rtpof=true&sd=true'
+        link: 'https://docs.google.com/document/d/1v2ifB_n_sBBINAxb7TOJAY9HCK1go-a5/edit?usp=sharing&ouid=115030633055998374817&rtpof=true&sd=true'
     },
     {
         course: 'Bachelor of Business Administration (BBA)',
