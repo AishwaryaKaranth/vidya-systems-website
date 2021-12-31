@@ -29,7 +29,7 @@ const Home=()=>{
                 </div>
             </div>
             <footer>
-                <p>Copyright Vidya Systems 2021</p>
+                <p>&#169; Vidya Systems 2021</p>
             </footer>
         </>
     )

@@ -111,13 +111,16 @@ body {
     border:2px solid #D4EDE2;
     border-style:dashed;
     margin:1rem;
+    background-color:#D4EDE2;
+    margin-top:2rem;
+    box-shadow: 0px 6px 20px 0px;
+    border-radius: 10px;
   }
 
   .flex-container-grid:hover{
     border:2px solid var(--primary-color);
-    border-style:dashed;
-    background-color:#D4EDE2;
-    
+    border-style:solid;
+    transform: scale(1.1);
   }
 
   .hero-button{
@@ -138,6 +141,7 @@ body {
 
   footer{
     background-color:#071A52;
+    margin-bottom: 0;
   }
 
   footer p{
