@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Paytone+One&display=swap');
 :root {
     --primary-color: #071A52 ;
-    --secondary-color:#17B978;
+    --secondary-color: #99d98c;
 }
 
 .color-nav{
@@ -21,7 +21,7 @@
     background-color: var(--primary-color);
     border-color: #071A52;
     justify-content:center;
-    padding-right:4rem;
+    padding-right: 4rem;
 }
 
 #basic-navbar-nav{
@@ -115,3 +115,9 @@
     }
   }
 
+@media (max-width: 800px){
+  #basic-nav-dropdown{
+    font-size:1.5rem;
+    color:var(--secondary-color);
+}
+}
