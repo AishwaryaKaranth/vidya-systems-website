@@ -1,12 +1,6 @@
 import React, { useState } from "react";
 import {
-  Form,
-  Button,
-  FormGroup,
-  FormControl,
-  ControlLabel,
-  Row,
-  Col,
+  Form
 } from "react-bootstrap";
 import styles from "./Contact.module.scss";
 import axios from "axios";
