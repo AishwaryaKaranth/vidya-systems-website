@@ -170,8 +170,8 @@ body {
     h2, h5{
       font-family: 'Montserrat',sans-serif;
       color: var(--primary-color);
-      font-weight: 700;
-      letter-spacing: 1px;
+      font-weight: 650;
+      letter-spacing: 2px;
     }
   }
 
@@ -187,6 +187,15 @@ body {
 
     h2, h5{
       text-align: center;
+    }
+
+    h2{
+      letter-spacing: 2px;
+      font-size: 2.5rem;
+    }
+
+    p{
+      font-weight: 440;
     }
 
   }

@@ -52,6 +52,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div>
+        <h2>Universities affliated to </h2>
+      </div>
       <footer>
         <p>&#169; Vidya Systems 2021</p>
       </footer>

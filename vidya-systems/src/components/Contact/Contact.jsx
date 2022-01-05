@@ -10,6 +10,8 @@ import {
 } from "react-bootstrap";
 import styles from "./Contact.module.scss";
 import axios from "axios";
+import Footer from "../Footer/Footer";
+import location from "../../assets/location.svg";
 
 const ContactForm = () => {
   const [server, setServer] = useState({
@@ -44,7 +46,11 @@ const ContactForm = () => {
   return (
     <>
       <div className={styles["contact-container"]}>
+        <div className={styles["location-container"]}>
+          <img src={location} alt="location symbol"/>
+        </div>
         <div className={styles["address-container"]}>
+          
           <h5>Address</h5>
           <p>
             #1066/34, 4th Main Road, Gokula, 1st Stage, 2nd Phase, Bengaluru -
@@ -57,7 +63,7 @@ const ContactForm = () => {
             <Form.Label>Name</Form.Label>
             <Form.Control type="text" placeholder="Name" name="name" />
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Label>Email address</Form.Label>
+              <Form.Label>Email Address</Form.Label>
               <Form.Control
                 type="email"
                 placeholder="name@example.com"
@@ -77,7 +83,9 @@ const ContactForm = () => {
             {server.status && <p>{server.status.message}</p>}
           </Form>
         </div>
+        
       </div>
+      
     </>
   );
 };

@@ -1,65 +1,170 @@
-.form-container{
-    width: 500px;
-    height: 500px;
-    float: right;
-    margin-top: 5rem;
-    margin-right: 5rem;
+// .form-container{
+//     width: 500px;
+//     height: 500px;
+//     float: right;
+//     margin-top: 5rem;
+//     margin-right: 5rem;
+//     border: 1px solid var(--primary-color);
+//     background-color: #D4EDE2;
+//     box-shadow: 9px 8px 14px -5px rgba(0,0,0,0.63);
+// }
+
+// .form-container button{
+//     display:block;
+//     border: none;
+//     background-color: var(--primary-color);
+//     color: var(--secondary-color);
+//     border-radius: 20px;
+//     padding: 0.5rem;
+//     width: 100px;
+//     margin:auto;
+//     margin-top:1.5rem;
+// }
+
+// .form-container button:hover{
+//     background-color:var(--secondary-color);
+//     color:var(--primary-color);
+// }
+
+// .form-container input{
+//     margin:1rem;
+//     width:350px;
+//     margin:auto;
+// }
+
+// .form-container label{
+//     margin:1rem;
+//     margin-left:4.5rem;
+//     color:var(--primary-color);
+//     font-family: 'Montserrat';
+// }
+
+// .form-container textarea{
+//     width:350px;
+//     height:100px;
+//     margin:auto;
+// }
+
+// .form-contianer p{
+//     text-align: center;
+//     color: var(--primary-color);
+//     margin-top:2rem;
+// }
+
+// .form-container h5{
+//     color:var(--primary-color);
+//     margin:1rem;
+//     text-align:center;
+//     text-decoration:underline;
+// }
+
+// footer{
+//   left: 0;
+//   bottom: 0;
+//   width: 100%;
+// }
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+}
+
+// .address-container {
+//     max-width:300px;
+//     h5{
+//         top: 30%;
+//         left: 90%;
+//         position: relative;
+//     }
+
+//     p{
+//         top: 40%;
+//     left: 90%;
+//     position: relative;
+//     font-size: 1.2rem;
+//     }
+// }
+
+.location-container{
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.address-container{
+    max-width: 300px;
+    margin: auto;
+}
+
+.form-container {
+  width: 500px;
+  background-color: #b5e48c;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin: auto;
+  padding: 1rem;
+  margin-right: 5rem;
+  margin-top: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  input {
+    width: 350px;
+    margin: auto;
+    margin-bottom: 0.5rem;
     border: 1px solid var(--primary-color);
-    background-color: #D4EDE2;
-    box-shadow: 9px 8px 14px -5px rgba(0,0,0,0.63);
-}
+  }
 
-.form-container button{
-    display:block;
-    border: none;
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    border-radius: 20px;
-    padding: 0.5rem;
-    width: 100px;
-    margin:auto;
-    margin-top:1.5rem;
-}
+  textarea {
+    width: 350px;
+    margin: auto;
+    margin-bottom: 0.5rem;
+    border: 1px solid var(--primary-color);
+  }
 
-.form-container button:hover{
-    background-color:var(--secondary-color);
-    color:var(--primary-color);
-}
+  label {
+    margin-left: 3.5rem;
+  }
 
-.form-container input{
-    margin:1rem;
-    width:350px;
-    margin:auto;
-}
-
-.form-container label{
-    margin:1rem;
-    margin-left:4.5rem;
-    color:var(--primary-color);
-    font-family: 'Montserrat';
-}
-
-.form-container textarea{
-    width:350px;
-    height:100px;
-    margin:auto;
-}
-
-.form-contianer p{
+  h5 {
     text-align: center;
+    padding: 0.5rem;
+  }
+
+  p {
+    margin-left: 3.5rem;
+  }
+
+  button {
+    display: block;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 0.6rem;
+    border-radius: 50px;
+    color: #b5e48c;
+    width: 100px;
+    margin: auto;
+  }
+
+  button:hover {
+    background-color: #99d98c;
     color: var(--primary-color);
-    margin-top:2rem;
+    border: 1px solid var(--primary-color);
+  }
 }
 
-.form-container h5{
-    color:var(--primary-color);
-    margin:1rem;
-    text-align:center;
-    text-decoration:underline;
-}
+@media (max-width: 400px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+  }
 
-footer{
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  .form-container{
+      width: 100%;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+      margin-left:0rem;
+  }
 }

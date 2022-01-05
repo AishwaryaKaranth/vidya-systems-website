@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import style from "./Faq.module.scss";
+import Footer from "../Footer/Footer";
 
 const Faq = () => {
   const [visible, setVisibility] = useState(true);
@@ -49,6 +50,7 @@ const Faq = () => {
           </section>
         ))}
       </div>
+      <Footer/>
     </div>
   );
 };
