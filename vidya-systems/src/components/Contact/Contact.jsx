@@ -48,14 +48,13 @@ const ContactForm = () => {
       <div className={styles["contact-container"]}>
         <div className={styles["location-container"]}>
           <img src={location} alt="location symbol"/>
-        </div>
-        <div className={styles["address-container"]}>
-          
-          <h5>Address</h5>
-          <p>
+          <div className={styles["address-container"]}>
+          <h3>Address</h3>
+          <h5>
             #1066/34, 4th Main Road, Gokula, 1st Stage, 2nd Phase, Bengaluru -
             560054
-          </p>
+          </h5>
+        </div>
         </div>
         <div className={styles["form-container"]}>
           <Form onSubmit={handleSubmit} method="POST">
@@ -85,7 +84,7 @@ const ContactForm = () => {
         </div>
         
       </div>
-      
+      <Footer/>
     </>
   );
 };

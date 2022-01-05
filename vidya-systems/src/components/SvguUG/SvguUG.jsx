@@ -36,7 +36,7 @@ const SvguUG = () => {
             established in the year 2012 to serve the aspirant students who
             could not enter the regular colleges for higher education. SGVU-DE
             offers 4 programmes in UG & PG stream viz.,{" "}
-            <span>BBA, BCA, MBA, and MCA</span>. SGVU is recognized by
+            BBA, BCA, MBA, and MCA. SGVU is recognized by
             UGC-AICTE-DEB, Govt. of India. SGVU distance programs have been
             vetted by EMAS Business School, Russia and students who have
             completed / pursuing distance MBA from SGVU can seek higher

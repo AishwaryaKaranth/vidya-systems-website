@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './About.module.scss'
+import Footer from "../Footer/Footer";
 
 const About=()=>{
     return(
@@ -18,7 +19,7 @@ const About=()=>{
                 <li className={styles["mission-points"]}>To embrace the oneness of all people through Educational Programs like Industry Oriented Programs- IT Programs in the field of Big Data Hadoop, Machine Learning, Cloud Platforms.</li>
                 <li className={styles["mission-points"]}>To help empower learners through learning, teaching and  to provide performance opportunities</li>
             </ul>
-            
+            <Footer/>
         </div>
     )
 }
