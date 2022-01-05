@@ -1,122 +1,128 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Paytone+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Paytone+One&display=swap");
 :root {
-    --primary-color: #071A52 ;
-    --secondary-color: #99d98c;
+  --primary-color: #071a52;
+  --secondary-color: #99d98c;
 }
 
-.color-nav{
-    background-color:var(--primary-color);
-    width:100vw;
-    left:0;
+.color-nav {
+  background-color: var(--primary-color);
+  width: 100vw;
+  left: 0;
 }
 
-.me-auto{
-    justify-content:space-between;
+.me-auto {
+  justify-content: space-between;
 }
 
-.link{
-    font-size:1.5rem;
-    color:var(--secondary-color);
-    background-color: var(--primary-color);
-    border-color: #071A52;
-    justify-content:center;
-    padding-right: 4rem;
+.link {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border-color: #071a52;
+  justify-content: center;
+  padding-right: 4rem;
 }
 
-#basic-navbar-nav{
-    font-size:1.5rem;
-    color:var(--secondary-color);
+#basic-navbar-nav {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
 }
 
-.container{
-    padding-left:30%;
+.container {
+  padding-left: 30%;
 }
 
-#basic-nav-dropdown{
-    font-size:1.5rem;
-    color:var(--secondary-color);
-    padding-right:4rem;
-    //background-color:var(--primary-color);
+#basic-nav-dropdown {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  padding-right: 4rem;
+  //background-color:var(--primary-color);
 }
 
-.link-secondary{
-    font-size:1rem;
-    background-color:var(--primary-color);
-    color:white;
+.link-secondary {
+  font-size: 1rem;
+  background-color: var(--primary-color);
+  color: white;
 }
 
-.logo{
-    width:20vw;
-    padding:1px;
-  }
-  .nav {
-      height: 50px;
-      padding: 10px;
-      background: #071A52;
-      color: #fff;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      
-    }
-    
-    .nav ul {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      list-style: none;
-      margin-left:auto;
-    }
-    
-    .nav li {
-      padding-left:1rem;
-      padding-top:1rem;
-    }
-    .nav ul li a {
-      margin: 5px 15px;
-      color:white;
-    }
-  
-    .nav a:hover{
-      color:#A7FF83;
-    }
-  
-    .sub-dropdown{
-      margin-top: 5rem;
-      color: black;
-      margin-left: -1rem;
-    }
+.logo {
+  width: 20vw;
+  padding: 1px;
+}
+.nav {
+  height: 50px;
+  padding: 10px;
+  background: #071a52;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
 
-    .navbar-light .navbar-toggler {
-      color: rgba(0,0,0,.5);
-      border-color: rgba(0,0,0,.1);
-      background-color: #A7FF83;
-  }
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-left: auto;
+}
 
-  .header-container img{
-    width:20vw;
-    padding:1rem;
-  }
+.nav li {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.nav ul li a {
+  margin: 5px 15px;
+  color: white;
+}
 
-  .dropdown-title{
-    margin:auto;
-  }
-  
-  @media (max-width: 800px) {
-    .responsive-navbar-nav{
-      background-color:var(--secondary-color);
-      border-radius:10px;
-    }
+.nav a:hover {
+  color: #a7ff83;
+}
 
-    span{
-      background-color:var(--secondary-color);
-      border-radius:10px;
-    }
+.sub-dropdown {
+  margin-top: 5rem;
+  color: black;
+  margin-left: -1rem;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.1);
+  background-color: #a7ff83;
+}
+
+.header-container img {
+  width: 20vw;
+  padding: 1rem;
+}
+
+.dropdown-title {
+  margin: auto;
+}
+
+@media (max-width: 800px) {
+  .responsive-navbar-nav {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
   }
 
-@media (max-width: 800px){
-  #basic-nav-dropdown{
-    font-size:1.5rem;
-    color:var(--secondary-color);
+  span {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+  }
 }
+
+@media (max-width: 800px) {
+  #basic-nav-dropdown {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    padding-right: 2rem;
+  }
+
+  .logo{
+    width:50vw;
+    height:5vh;
+    padding:5px;
+  }
 }
