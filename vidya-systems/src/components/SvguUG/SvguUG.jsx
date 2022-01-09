@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./SvguUG.module.scss";
-import { NavDropdown } from "react-bootstrap";
 import Footer from "../Footer/Footer";
 
 const SvguCourses = [
