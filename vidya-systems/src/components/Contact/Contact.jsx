@@ -45,9 +45,11 @@ const ContactForm = () => {
           <div className={styles["address-container"]}>
           <h3>Address</h3>
           <h5>
-            #1066/34, 4th Main Road, Gokula, 1st Stage, 2nd Phase, Bengaluru -
+            #1066/34, 4th Main Road, Gokula, 1st Stage, 2nd Phase, near CSB Bank, Mathikere Bengaluru -
             560054
           </h5>
+          <h3>Contact Number</h3>
+          <h5>93412 31457</h5>
         </div>
         </div>
         <div className={styles["form-container"]}>

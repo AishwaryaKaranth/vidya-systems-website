@@ -14,6 +14,22 @@
   justify-content: space-between;
 }
 
+.icon-container{
+  padding:10px;
+  float:right;
+  display:flex;
+  flex-direction: column;
+}
+
+.icon-inner-container{
+  display:flex;
+  flex-direction:row;
+  margin-bottom:-10px;
+  p{
+    margin-top:-10px;
+  }
+}
+
 .link {
   font-size: 1.5rem;
   color: var(--secondary-color);
@@ -117,6 +133,15 @@
   #basic-nav-dropdown {
     font-size: 1.5rem;
     color: var(--secondary-color);
+  }
+
+  .icon-inner-container{
+    font-size:12px;
+  }
+
+  .header-container img {
+    width: 35vw;
+    padding: 0.5rem;
   }
 
 }

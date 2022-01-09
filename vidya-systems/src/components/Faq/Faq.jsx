@@ -5,7 +5,6 @@ import Footer from "../Footer/Footer";
 
 const Faq = () => {
   const [visible, setVisibility] = useState(true);
-  const [dropdown, setDropdown] = useState(true);
   var faq = [
     {
       id: 1,
