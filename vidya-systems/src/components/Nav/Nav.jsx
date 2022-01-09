@@ -1,7 +1,6 @@
 import React from "react";
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem, Container } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import {LinkContainer} from "react-router-bootstrap";
-import Dropdown from 'react-multilevel-dropdown';
 import logo from "../../assets/logo.png";
 import styles from "./Nav.module.scss";
 import "bootstrap/dist/css/bootstrap.min.css";

@@ -52,6 +52,7 @@ const SvguUG = () => {
                 <a
                   href={_.link}
                   target="_blank"
+                  rel="noreferrer"
                   className={styles["course-titles"]}
                 >
                   {_.course}

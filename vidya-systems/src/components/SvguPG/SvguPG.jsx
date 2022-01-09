@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./SvguPG.module.scss";
-import { NavDropdown } from "react-bootstrap";
 import Footer from "../Footer/Footer";
 
 const SvguCourses = [
@@ -51,6 +50,7 @@ const SvguPG = () => {
                 <a
                   href={_.link}
                   target="_blank"
+                  rel="noreferrer"
                   className={styles["course-titles"]}
                 >
                   {_.course}
