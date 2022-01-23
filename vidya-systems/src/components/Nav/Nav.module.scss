@@ -21,13 +21,16 @@
   flex-direction: column;
 }
 
-.icon-inner-container{
-  display:flex;
-  flex-direction:row;
-  margin-bottom:-10px;
-  p{
-    margin-top:-10px;
-  }
+.icon-inner-container a{
+  padding: 10px;
+  color:var(--primary-color);;
+  text-decoration:none;
+}
+
+.icon-inner-container a:hover{
+  padding: 10px;
+  color:var(--secondary-color);;
+  text-decoration:none;
 }
 
 .link {

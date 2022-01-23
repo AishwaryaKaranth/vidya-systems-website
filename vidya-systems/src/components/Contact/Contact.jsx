@@ -37,6 +37,8 @@ const ContactForm = () => {
       });
     console.log(form);
   };
+
+  const address='http://maps.google.com/?q=1066/34, 4th Main Road, Triveni Main Rd, next to Punjab National Bank, 2nd Phase, Gokula 1st Stage, Mathikere, Bengaluru, Karnataka 560054'
   return (
     <>
       <div className={styles["contact-container"]}>
@@ -44,12 +46,12 @@ const ContactForm = () => {
           <img src={location} alt="location symbol"/>
           <div className={styles["address-container"]}>
           <h3>Address</h3>
-          <h5>
+          <a href={address} target="_blank">
             #1066/34, 4th Main Road, Gokula, 1st Stage, 2nd Phase, near CSB Bank, Mathikere Bengaluru -
             560054
-          </h5>
+          </a>
           <h3>Contact Number</h3>
-          <h5>93412 31457</h5>
+          <a href="tel:9341231457" target="_blank">93412 31457</a>
         </div>
         </div>
         <div className={styles["form-container"]}>

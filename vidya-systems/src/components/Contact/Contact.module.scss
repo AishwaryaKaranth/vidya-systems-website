@@ -98,6 +98,16 @@
 .address-container{
     max-width: 300px;
     margin: auto;
+    a{
+      color:var(--primary-color);
+      text-decoration:none;
+      font-size:1.25rem;
+      font-family:'Montserrat'
+    }
+
+    a:hover{
+      color:var(--secondary-color);
+    }
 }
 
 .form-container {

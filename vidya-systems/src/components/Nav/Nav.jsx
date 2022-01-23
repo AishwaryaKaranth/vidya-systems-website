@@ -15,11 +15,11 @@ const Navigation = () => {
         <div className={styles["icon-container"]}>
           <div className={styles["icon-inner-container"]}>
             <FontAwesomeIcon icon={faEnvelope} />
-            <p>vidyasystems11@gmail.com</p>
+            <a href="mailto:vidyasystems11@gmail.com" target="_blank">vidyasystems11@gmail.com</a>
           </div>
           <div className={styles["icon-inner-container"]}>
             <FontAwesomeIcon icon={faPhone} />
-            <p>93412 31457</p>
+            <a href="tel:9341231457" target="_blank">9341231457</a>
           </div>
         </div>
       </div>
