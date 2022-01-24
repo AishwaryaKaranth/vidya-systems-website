@@ -13,6 +13,7 @@
     margin-top:2rem;
     border-left: 12px solid #d8f3dc;
     max-height: 800px;
+    margin-bottom:3rem;
 }
 
 p, span{
@@ -81,4 +82,8 @@ h2,h3,h4{
     text-decoration:none;
     color:var(--secondary-color);
     font-size:1.5rem;
+}
+
+.course-details{
+    padding-bottom:5rem;
 }
