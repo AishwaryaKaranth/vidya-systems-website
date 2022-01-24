@@ -5,10 +5,21 @@ import grid1Image from "../../assets/expert.svg";
 import grid2Image from "../../assets/certify.svg";
 import grid3Image from "../../assets/time.svg";
 import Faq from "../Faq/Faq";
+import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Home = () => {
 	return (
 		<>
+			<Helmet>
+				<meta charSet="utf-8" />
+				<meta
+					name="description"
+					content="Top distance education center in Bangalore south offering undergraduate and postgraduate courses"
+				></meta>
+				<title>Vidya Systems</title>
+			</Helmet>
 			<div className={styles["container"]}>
 				<div className={styles["container-grid"]}>
 					<img
@@ -19,7 +30,14 @@ const Home = () => {
 				</div>
 				<div className={styles["container-grid"]}>
 					<h2 className={styles["hero-heading"]}>Learn from the best.</h2>
-					<button className={styles["hero-button"]}>Know More</button>
+					<button className={styles["hero-button"]}>
+						<HashLink
+							to="/#courses-info"
+							style={{ color: "var(--secondary-color)" }}
+						>
+							Know More
+						</HashLink>
+					</button>
 				</div>
 			</div>
 			<hr></hr>
@@ -56,22 +74,22 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-			<div className={styles["intro-container"]}>
-        <h2>Invest in your career with Vidya Systems</h2>
+			<div className={styles["intro-container"]} id="courses-info">
+				<h2>Invest in your career with Vidya Systems</h2>
 				<p>
-					Vidya Systems offers courses from <span>Gitam University</span> and <span>Suresh Vihar
-					Gyan University</span>. <br />
-					Check out the undergraduate and postgraduate courses from Gitam
+					Vidya Systems offers courses from <span>Gitam University</span> and
+					<span>Suresh Vihar Gyan University</span>. <br />
+					Check out the <Link to="/" className={styles["intro-container-link"]}>undergraduate</Link> and <Link to="/" className={styles["intro-container-link"]}>postgraduate</Link> courses from Gitam
 					university here.
 					<br />
-					Check out undergraduate and postgraduate courses from SVGU here.{" "}
+					Check out <Link to="/SvguUG" className={styles["intro-container-link"]}>undergraduate</Link> and <Link to="/SvguPG" className={styles["intro-container-link"]}>postgraduate</Link> courses from SVGU here.
 					<br />
-					To know more reach out to us.
+					<Link to="/Contact" style={{color:"black"}} className={styles["intro-container-link"]}>To know more reach out to us.</Link>
 				</p>
 			</div>
-      <div className={styles["faq-container"]}>
-        <Faq/>
-      </div>
+			<div className={styles["faq-container"]}>
+				<Faq />
+			</div>
 			<footer>
 				<p>&#169; Vidya Systems 2022</p>
 			</footer>

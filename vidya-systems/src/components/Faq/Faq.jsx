@@ -26,7 +26,7 @@ const Faq = () => {
 
   return (
     <div className="App">
-      <h3 className={style["faq-heading"]}>Frequently Asked Questions</h3>
+      <h1 className={style["faq-heading"]}>Frequently Asked Questions</h1>
       <div className={style["container"]}>
         {faq.map((f) => (
           <section className={style["faq-container"]}>
