@@ -3,7 +3,7 @@ import React from "react";
 const Footer=()=>{
     return(
         <footer>
-            <p>&#169; Vidya Systems 2021</p>
+            <p>&#169; Vidya Systems 2022</p>
         </footer>
     )
 }
