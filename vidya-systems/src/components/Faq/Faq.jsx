@@ -4,7 +4,7 @@ import style from "./Faq.module.scss";
 import Footer from "../Footer/Footer";
 
 const Faq = () => {
-  const [visible, setVisibility] = useState(true);
+  const [visible, setVisibility] = useState(false);
   var faq = [
     {
       id: 1,
