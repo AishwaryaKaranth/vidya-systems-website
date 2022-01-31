@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/AishwaryaKaranth/vidya-systems-website/static/css/main.263d7e93.chunk.css",
+    "main.js": "/AishwaryaKaranth/vidya-systems-website/static/js/main.03d0f2ba.chunk.js",
+    "main.js.map": "/AishwaryaKaranth/vidya-systems-website/static/js/main.03d0f2ba.chunk.js.map",
+    "runtime-main.js": "/AishwaryaKaranth/vidya-systems-website/static/js/runtime-main.52399f51.js",
+    "runtime-main.js.map": "/AishwaryaKaranth/vidya-systems-website/static/js/runtime-main.52399f51.js.map",
+    "static/css/2.081f420c.chunk.css": "/AishwaryaKaranth/vidya-systems-website/static/css/2.081f420c.chunk.css",
+    "static/js/2.8bd8b1e6.chunk.js": "/AishwaryaKaranth/vidya-systems-website/static/js/2.8bd8b1e6.chunk.js",
+    "static/js/2.8bd8b1e6.chunk.js.map": "/AishwaryaKaranth/vidya-systems-website/static/js/2.8bd8b1e6.chunk.js.map",
+    "static/js/3.c79b5f2d.chunk.js": "/AishwaryaKaranth/vidya-systems-website/static/js/3.c79b5f2d.chunk.js",
+    "static/js/3.c79b5f2d.chunk.js.map": "/AishwaryaKaranth/vidya-systems-website/static/js/3.c79b5f2d.chunk.js.map",
+    "index.html": "/AishwaryaKaranth/vidya-systems-website/index.html",
+    "static/css/2.081f420c.chunk.css.map": "/AishwaryaKaranth/vidya-systems-website/static/css/2.081f420c.chunk.css.map",
+    "static/css/main.263d7e93.chunk.css.map": "/AishwaryaKaranth/vidya-systems-website/static/css/main.263d7e93.chunk.css.map",
+    "static/js/2.8bd8b1e6.chunk.js.LICENSE.txt": "/AishwaryaKaranth/vidya-systems-website/static/js/2.8bd8b1e6.chunk.js.LICENSE.txt",
+    "static/media/certify.d54ab1a7.svg": "/AishwaryaKaranth/vidya-systems-website/static/media/certify.d54ab1a7.svg",
+    "static/media/expert.2e69c110.svg": "/AishwaryaKaranth/vidya-systems-website/static/media/expert.2e69c110.svg",
+    "static/media/hero-image-2.dde4114e.svg": "/AishwaryaKaranth/vidya-systems-website/static/media/hero-image-2.dde4114e.svg",
+    "static/media/location.075955bd.svg": "/AishwaryaKaranth/vidya-systems-website/static/media/location.075955bd.svg",
+    "static/media/logo.69906f23.png": "/AishwaryaKaranth/vidya-systems-website/static/media/logo.69906f23.png",
+    "static/media/time.158e6755.svg": "/AishwaryaKaranth/vidya-systems-website/static/media/time.158e6755.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52399f51.js",
+    "static/css/2.081f420c.chunk.css",
+    "static/js/2.8bd8b1e6.chunk.js",
+    "static/css/main.263d7e93.chunk.css",
+    "static/js/main.03d0f2ba.chunk.js"
+  ]
+}
