@@ -5,7 +5,7 @@ import Nav from "./components/Nav/Nav";
 import SvguUG from "./components/SvguUG/SvguUG";
 import SvguPG from "./components/SvguPG/SvguPG";
 import Contact from "./components/Contact/Contact";
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 
 function App() {
