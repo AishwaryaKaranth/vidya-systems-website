@@ -46,12 +46,12 @@ const ContactForm = () => {
           <img src={location} alt="location symbol"/>
           <div className={styles["address-container"]}>
           <h3>Address</h3>
-          <a href={address} target="_blank">
+          <a href={address} target="_blank" rel="noreferrer">
             #1066/34, 4th Main Road, Gokula, 1st Stage, 2nd Phase, near CSB Bank, Mathikere Bengaluru -
             560054
           </a>
           <h3>Contact Number</h3>
-          <a href="tel:9341231457" target="_blank">93412 31457</a>
+          <a href="tel:9341231457" target="_blank" rel="noreferrer">93412 31457</a>
         </div>
         </div>
         <div className={styles["form-container"]}>
