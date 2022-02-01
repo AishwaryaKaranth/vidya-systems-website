@@ -64,7 +64,7 @@ const Navigation = () => {
                     </NavDropdown.Item>
                   </LinkContainer>
                 </NavDropdown>
-                <NavDropdown title="SVGU" className={styles["dropdown-title"]}>
+                <NavDropdown title="SGVU" className={styles["dropdown-title"]}>
                   <LinkContainer to="/svguUG">
                     <NavDropdown.Item className={styles["dropdown-title"]}>
                       UG
