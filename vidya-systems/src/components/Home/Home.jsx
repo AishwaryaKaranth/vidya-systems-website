@@ -78,11 +78,11 @@ const Home = () => {
 				<h2>Invest in your career with Vidya Systems</h2>
 				<p>
 					Vidya Systems offers courses from <span>Gitam University</span> and
-					<span>Suresh Vihar Gyan University</span>. <br />
+					<span>Suresh Gyan Vihar University</span>. <br />
 					Check out the <Link to="/" className={styles["intro-container-link"]}>undergraduate</Link> and <Link to="/" className={styles["intro-container-link"]}>postgraduate</Link> courses from Gitam
 					university here.
 					<br />
-					Check out <Link to="/SvguUG" className={styles["intro-container-link"]}>undergraduate</Link> and <Link to="/SvguPG" className={styles["intro-container-link"]}>postgraduate</Link> courses from SVGU here.
+					Check out <Link to="/SvguUG" className={styles["intro-container-link"]}>undergraduate</Link> and <Link to="/SvguPG" className={styles["intro-container-link"]}>postgraduate</Link> courses from SGVU here.
 					<br />
 					<Link to="/Contact" style={{color:"black"}} className={styles["intro-container-link"]}>To know more reach out to us.</Link>
 				</p>
