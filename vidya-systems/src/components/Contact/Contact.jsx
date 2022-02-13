@@ -48,7 +48,9 @@ const ContactForm = () => {
           <h3>Address</h3>
           <a href={address} target="_blank" rel="noreferrer">
             #1066/34, 4th Main Road, Gokula, 1st Stage, 2nd Phase, near CSB Bank, Mathikere Bengaluru -
-            560054
+            560054.
+            <br/>
+            <span>Click here for directions.</span>
           </a>
           <h3>Contact Number</h3>
           <a href="tel:9341231457" target="_blank" rel="noreferrer">93412 31457</a>
