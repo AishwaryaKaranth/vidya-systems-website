@@ -16,7 +16,7 @@ const Home = () => {
 				<meta charSet="utf-8" />
 				<meta
 					name="description"
-					content="Top distance education center in Bangalore south offering undergraduate and postgraduate courses"
+					content="Top distance education center in Mathikere, Bangalore North offering software training, undergraduate and postgraduate courses"
 				></meta>
 				<title>Vidya Systems</title>
 			</Helmet>
