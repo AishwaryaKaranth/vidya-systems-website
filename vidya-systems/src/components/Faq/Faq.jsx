@@ -11,7 +11,7 @@ const Faq = () => {
 			question:
 				"Do I need any academic qualifications to study degree from distance education?",
 			answer:
-				"Yes, there are specific entry level requirements for each programme. For any degree eligibility is +2 /Intermediate equivalent is required. For masters degree, any 3 year degree is required.",
+				"Yes, there are specific entry level requirements for each programme. For any degree eligibility is +2 /Intermediate equivalent is required. For master's degree, any 3 year degree is required.",
 		},
 		{
 			id: 2,
@@ -45,7 +45,7 @@ const Faq = () => {
 	];
 
 	const clickHandler = (i) => {
-		if (visible == i) {
+		if (visible === i) {
 			return setVisible(null);
 		}
 		setVisible(i);
